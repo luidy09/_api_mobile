@@ -1,5 +1,5 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import QrContent from 'App/Models/QrColabcontent'
+import QrContent from 'App/Models/QrColabContent'
 
 export default class qrcontentsController {
     public async index({ }: HttpContextContract) {
